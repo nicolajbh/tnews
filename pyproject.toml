@@ -8,11 +8,12 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "pytest>=9.1.1",
     "requests>=2.34.2",
 ]
 
 [project.scripts]
-tnews = "tnews:main"
+tnews = "tnews.main:main"
 
 [build-system]
 requires = ["uv_build>=0.12.9,<0.13.0"]
